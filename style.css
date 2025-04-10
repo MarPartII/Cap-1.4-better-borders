@@ -1,0 +1,21 @@
+#footer {
+    border-image-source: url(frame.png) 8px round;
+    position: fixed;
+    top: 0px;
+    
+}
+
+.str {
+    animation-name: "rotate";
+    animation-duration: 3s;
+
+}
+
+@keyframes rotate {
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+}
+
+#crt { 
+    border-image-source: url(frame.png) 8px round;
+}
